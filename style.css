@@ -1,0 +1,131 @@
+/* ////////////////////////////////////////////////////////////////////base */
+
+:root {
+    --iris: #4D5AE5;
+    --ocean: #404BBF;
+    --navy-blue: #2E2F42;
+    --slate: #434455;
+    --white: #FFFFFF;
+    --corn-flower: #E7E9FC;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+    color: var(--slate);
+}
+
+.link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.u-list {
+    list-style: none;
+}
+
+.tier2-title {
+    font-size: 36px;
+    line-height: 40px;
+}
+
+.main-title, .tier2-title {
+    font-weight: 700;
+}
+
+.tier3-title {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.tier2-title, .tier3-title {
+    color: var(--navy-blue);
+}
+
+.text {
+    color: var(--slate);
+}
+
+.btn {
+    cursor: pointer;
+}
+
+/* //////////////////////////////////////////////////////index */
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    color: var(--iris);
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 800;
+}
+
+.header .logo span {
+    color: var(--navy-blue);
+}
+
+.header-link:hover, .header-link:focus {
+    color: var(--ocean);
+}
+
+.nav-item {
+    color: var(--navy-blue);
+    font-weight: 500;
+}
+
+.address-item {
+    color: var(--slate);
+    font-style: normal;
+}
+
+.main-title {
+    color: var(--white);
+    font-size: 56px;
+    line-height: 60px;
+}
+
+.hero-section {
+    background-color: var(--navy-blue);
+}
+
+.hero-btn {
+    background-color: var(--iris);
+    color: var(--white);
+}
+
+.hero-btn:hover, .hero-btn:focus{
+    background-color: var(--ocean);
+    color: var(--white);
+}
+
+.footer .logo span {
+    color: var(--corn-flower);
+}
+
+.footer {
+    background-color: var(--navy-blue);
+}
+
+.footer-text {
+    color: var(--corn-flower);
+}
+
+/* //////////////////////////////////////////////////////portfolio */
+
+.tab-item {
+    color: var(--iris);
+    font-weight: 500;
+}
+
+.tab-btn {
+    color: var(--iris);
+    font-family: 'Roboto', sans-serif;
+}
+
+.tab-btn:hover, .tab-btn:focus {
+    background-color: var(--ocean);
+    color: var(--white);
+}
+
+
